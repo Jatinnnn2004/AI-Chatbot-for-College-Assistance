@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+#chatbox {
+    display: flex;
+    flex-direction: column;
+}
+.user-message {
+    align-self: flex-end;
+    background-color: #1f2937;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    max-width: 75%;
+}
+.bot-message {
+    align-self: flex-start;
+    background-color: #374151;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    max-width: 75%;
+}
